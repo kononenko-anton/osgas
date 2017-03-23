@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="osgas-backend" />
+        <module name="osgas-production" />
+        <module name="osgas-ui" />
+        <module name="osgas-widgetset" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="osgas-backend" target="1.8" />
+      <module name="osgas-production" target="1.8" />
+      <module name="osgas-ui" target="1.8" />
+      <module name="osgas-web" target="1.8" />
+      <module name="osgas-widgetset" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
